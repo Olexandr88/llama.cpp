@@ -2,11 +2,11 @@
 
 #include "llama-impl.h"
 #include "llama-batch.h"
-#include "llama-cparams.h"
 #include "llama-model.h"
 
+#include <algorithm>
 #include <cassert>
-#include <cmath>
+#include <limits>
 #include <map>
 #include <stdexcept>
 
